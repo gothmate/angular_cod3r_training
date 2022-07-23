@@ -1,0 +1,31 @@
+@use '@angular/material' as mat
+
+.my-class
+  @include mat.elevation(3)
+  
+  
+.footer
+  position: fixed
+  bottom: 5px
+  display: flex
+  background: #ebebeb
+  justify-content: flex-end
+  align-items: center
+  font-size: 0.8rem
+
+.sig
+  color: #272727
+  padding: 0.5rem
+  & span
+    padding: 0
+  a
+    color: #666
+    margin: 3px
+    text-decoration: none
+    border: solid 2px #272727
+    padding: 3px
+    transition: 300ms ease-in-out
+    &:hover
+      color: #ececec
+      background: #272727
+      text-decoration: none
